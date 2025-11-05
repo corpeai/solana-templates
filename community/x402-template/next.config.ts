@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: '*.giphy.com',
+
+        experimental: {
+       nodeMiddleware: true, // TEMPORARY: Only needed until Edge runtime support is added
       },
     ],
   },
