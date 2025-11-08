@@ -8,10 +8,8 @@ const nextConfig: NextConfig = {
         hostname: '*.giphy.com',
 
         experimental: {
-       nodeMiddleware: true, // TEMPORARY: Only needed until Edge runtime support is added
-      },
-    ],
-  },
-}
+    nodeMiddleware: true, // TEMPORARY: Only needed until Edge runtime support is added
+  }
+};
 
-export default nextConfig
+export default nextConfig;
